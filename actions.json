@@ -16,8 +16,29 @@
       "type": "mention",
       "helpInfo": "example of usage: '/prank @User'",
       "phrases": [
-        "{author} pranked {mentionedUser}",
-        "{author} try to prank {mentionedUser}, but pranked only himself"
+        "{author} prank {mentionedUser}",
+        "{author} try to prank {mentionedUser}, but prank himself"
+      ]
+    },
+    {
+      "name": "bot",
+      "type": "text",
+      "helpInfo": "example of usage: '/bot command' (random member, who the best)",
+      "children": [
+        {
+          "name": "random member,",
+          "type": "nested",
+          "phrases": [
+            "Bot choose {randomMember} as random member"
+          ]
+        },
+        {
+          "name": "who the best",
+          "type": "nested",
+          "phrases": [
+            "{author} is the best"
+          ]
+        }
       ]
     }
   ],
