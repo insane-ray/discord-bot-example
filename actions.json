@@ -1,0 +1,31 @@
+{
+  "actions": [
+    {
+      "name": "joke",
+      "type": "simple",
+      "helpInfo": "example of usage: '/joke'",
+      "phrases": [
+        "{author} - you",
+        "{randomMember} is a joke",
+        "Most people are shocked when they find out how bad I am as an electrician",
+        "I started out with nothing, and I still have most of it."
+      ]
+    }
+  ],
+  "i18n": {
+    "actionNotFound": "action not found",
+    "argumentNotFound": "action not found",
+    "wrongMention": "No user mentioned",
+    "wrongArgument": "Invalid argument",
+    "helpInfoList": "'/help list' - to see all actions",
+    "helpInfoAction": "'/help action' - to get help about specific action",
+    "helpList": "List of available actions:"
+  },
+  "botState": {
+    "activity": {
+      "name": "testing bot",
+      "type": "PLAYING"
+    },
+    "status": "online"
+  }
+}

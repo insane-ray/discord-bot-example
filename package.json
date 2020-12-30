@@ -1,0 +1,24 @@
+{
+  "name": "discord-bot-example",
+  "version": "1.0.0",
+  "description": "example of discord bot constructor",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/insane-ray/discord-bot-example.git"
+  },
+  "keywords": [],
+  "author": "Insane Ray",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/insane-ray/discord-bot-example/issues"
+  },
+  "homepage": "https://github.com/insane-ray/discord-bot-example#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0"
+  }
+}
