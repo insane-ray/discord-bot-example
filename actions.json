@@ -10,6 +10,15 @@
         "Most people are shocked when they find out how bad I am as an electrician",
         "I started out with nothing, and I still have most of it."
       ]
+    },
+    {
+      "name": "prank",
+      "type": "mention",
+      "helpInfo": "example of usage: '/prank @User'",
+      "phrases": [
+        "{author} pranked {mentionedUser}",
+        "{author} try to prank {mentionedUser}, but pranked only himself"
+      ]
     }
   ],
   "i18n": {
