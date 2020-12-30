@@ -5,38 +5,37 @@
       "type": "simple",
       "helpInfo": "example of usage: '/joke'",
       "phrases": [
-        "{author} - you",
-        "{randomMember} is a joke",
-        "Most people are shocked when they find out how bad I am as an electrician",
-        "I started out with nothing, and I still have most of it."
+        "{author}, may be your tell us one?",
+        "Random decided, it's time {randomMember} to telling joke",
+        "Most people are shocked when they find out how bad I am as an electrician"
       ]
     },
     {
-      "name": "prank",
+      "name": "ping",
       "type": "mention",
-      "helpInfo": "example of usage: '/prank @User'",
+      "helpInfo": "example of usage: '/ping @User'",
       "phrases": [
-        "{author} prank {mentionedUser}",
-        "{author} try to prank {mentionedUser}, but prank himself"
+        "{author} pinging {mentionedUser}",
+        "{mentionedUser} is not answering"
       ]
     },
     {
-      "name": "bot",
+      "name": "random",
       "type": "text",
-      "helpInfo": "example of usage: '/bot command' (random member, who the best)",
+      "helpInfo": "example of usage: '/random command' (number, member)",
       "children": [
         {
-          "name": "random member,",
+          "name": "number",
           "type": "nested",
           "phrases": [
-            "Bot choose {randomMember} as random member"
+            "Random number is {randomNumber}"
           ]
         },
         {
-          "name": "who the best",
+          "name": "member",
           "type": "nested",
           "phrases": [
-            "{author} is the best"
+            "Random member is {randomMember}"
           ]
         }
       ]
